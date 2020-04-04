@@ -1,0 +1,3 @@
+Please change the path of the javafx lib file in the .bat file before you run the program.
+
+We used javafx-sdk-13.0.2 version to compile the program.

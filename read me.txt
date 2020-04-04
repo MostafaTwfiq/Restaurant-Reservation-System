@@ -1,0 +1,77 @@
+*We have used java-jdk-13.0.2 and javafx-sdk-13.0.2 versions to compile the program.*
+
+Features:
+
+1- Tasks distribution:
+
+Mostafa Twfiq 6672: have wrote dishes and tables classes and all classes related to it.
+He also wrote the Vector classes and Save class.
+He have wrote the manager class, setStyle class and waiter class.
+
+
+Mohammed zyton 6670: have wrote users classes and all classes related to it.
+He also wrote the Load class.
+He have wrote the Client class and Cooker class.
+
+
+
+2- Project structure:
+
+We have wrote the vectores to have more control with our data and we have used DOM method to save and load xml files,
+also we didn't use any drag and deop apps or any libraries to build the GUI.
+
+
+
+3- Program specifications:
+
+a- The program supports two types of style
+- Dark Mode.
+- Light Mode.
+
+b- Program saves all the run time data of the program like
+- Style mode
+- Users data
+- Dishes
+- Bills
+- Orders
+- Tables
+- Reservations
+(The program save these data while it's closing, so make sure to close it properly).
+
+c- The program handles the most all or the errors and buges to be more stable.
+
+d- we used some css and buttons effects to make the interface more friendly with the user.
+
+e- Text Fields interact with enter keyboard button.
+
+*Note: almost all the tables view you can click on an element to do something.*
+
+
+
+
+4- Dashboards:
+
+Manager:
+a- Managers can see all the users and edit or delete them.
+Managers also can see all the tables and see if it are booked and the name of client who booked it, 
+also he can edit and delete tables.
+the project is a little bit smarter so the don't have to enter the table number, 
+the project will now the next table number add automaticlly add it.
+Managers can see all the bills, and they also can see the bills of today and total profit of today,
+bills are consests of client name, date, total amount and manager can view all the dishes of the bill.
+
+b- Clients - Vip clients:
+At the first the program will print all the tables to the client with it's properties and the client can choose one of them.
+After that the client will be able to choose the dishes that he wants and after he can order them.
+if the client payed his bill he will see the bill details.
+Client also can edit there account data.
+
+c- Cookers:
+Cookers will see all orders, they will be able to see the tale number and the ordered dishes on it, 
+and if he finished cooking a dish he can delete it from the orderes dishes list.
+Cookers also can see all the dishes in the resraurant and they can edit, delete or add new dish.
+Cookers also can edit there account data.
+
+d- Waiters:
+Waiter can see all booked tables and the name of the client who booked it.
+Waiters also can edit there account data.

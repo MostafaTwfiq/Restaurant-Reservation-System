@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<restaurant>
+    <users>
+        <user>
+            <name>Adam Smith</name>
+            <role>Manager</role>
+            <username>adam</username>
+            <password>adam_manager</password>
+        </user>
+        <user>
+            <name>John Doe</name>
+            <role>Client</role>
+            <username>john</username>
+            <password>john_doe</password>
+            <ClientDishes/>
+            <ClientTable>
+                <client_table>
+                    <tableNumber/>
+                </client_table>
+            </ClientTable>
+        </user>
+        <user>
+            <name>Brian Johnes</name>
+            <role>Client</role>
+            <username>brian</username>
+            <password>mdir@admj%ar5qX2</password>
+            <ClientDishes/>
+            <ClientTable>
+                <client_table>
+                    <tableNumber/>
+                </client_table>
+            </ClientTable>
+        </user>
+        <user>
+            <name>George Robben</name>
+            <role>Waiter</role>
+            <username>george</username>
+            <password>k6987_#LpQ</password>
+        </user>
+        <user>
+            <name>Tomas Hobbens</name>
+            <role>Cooker</role>
+            <username>hobbens_tom</username>
+            <password>cooker_pass</password>
+        </user>
+        <user>
+            <name>mostafa</name>
+            <role>Manager</role>
+            <username>mostafa</username>
+            <password>mostafa</password>
+        </user>
+        <user>
+            <name>mostafaTwfiq</name>
+            <role>Client</role>
+            <username>mostafaTwfiq</username>
+            <password>mostafaTwfiq</password>
+            <ClientDishes/>
+            <ClientTable>
+                <client_table>
+                    <tableNumber/>
+                </client_table>
+            </ClientTable>
+        </user>
+    </users>
+    <dishes>
+        <dish>
+            <name>Grilled Chicken</name>
+            <price>75</price>
+            <type>main_course</type>
+        </dish>
+        <dish>
+            <name>Mushroom Soup</name>
+            <price>60</price>
+            <type>main_course</type>
+        </dish>
+        <dish>
+            <name>Beef Steak</name>
+            <price>80</price>
+            <type>main_course</type>
+        </dish>
+        <dish>
+            <name>Greek Salade</name>
+            <price>35</price>
+            <type>appetizer</type>
+        </dish>
+        <dish>
+            <name>Fried Potatos</name>
+            <price>30</price>
+            <type>appetizer</type>
+        </dish>
+        <dish>
+            <name>Apple Pie</name>
+            <price>50</price>
+            <type>desert</type>
+        </dish>
+        <dish>
+            <name>Molten Cake</name>
+            <price>60</price>
+            <type>desert</type>
+        </dish>
+    </dishes>
+    <tables>
+        <table>
+            <number>1</number>
+            <number_of_seats>5</number_of_seats>
+            <smoking>false</smoking>
+        </table>
+        <table>
+            <number>2</number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>false</smoking>
+        </table>
+        <table>
+            <number>3</number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>true</smoking>
+        </table>
+        <table>
+            <number>4</number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>false</smoking>
+        </table>
+        <table>
+            <number>5</number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>true</smoking>
+        </table>
+        <table>
+            <number>6</number>
+            <number_of_seats>7</number_of_seats>
+            <smoking>true</smoking>
+        </table>
+        <table>
+            <number>7</number>
+            <number_of_seats>6</number_of_seats>
+            <smoking>true</smoking>
+        </table>
+    </tables>
+    <bills>
+        <bill>
+            <client_name>mostafaTwfiq</client_name>
+            <date>2020/04/03 21:19:21</date>
+            <client_bill>196.750000</client_bill>
+            <billDishes>
+                <billDish>
+                    <name>Molten Cake</name>
+                    <price>60</price>
+                    <type>desert</type>
+                </billDish>
+                <billDish>
+                    <name>Grilled Chicken</name>
+                    <price>75</price>
+                    <type>main_course</type>
+                </billDish>
+                <billDish>
+                    <name>Greek Salade</name>
+                    <price>35</price>
+                    <type>appetizer</type>
+                </billDish>
+            </billDishes>
+        </bill>
+    </bills>
+    <orders/>
+</restaurant>
