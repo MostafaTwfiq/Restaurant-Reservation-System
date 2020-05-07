@@ -17,4 +17,3 @@
 ![RestaurantReservationSystem image](snapshots/cookerDashboard.png)
 
 ![RestaurantReservationSystem image](snapshots/waiterDashBoard.png)
-"# Restaurant-Reservation-System" 
